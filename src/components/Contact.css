@@ -1,0 +1,111 @@
+#contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#clients,
+#contact {
+    width: 100%;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+    background: rgb(50, 50, 50);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.contactPageTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.clientDesc,
+.contactDesc {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.clientImgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.clientImg {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.submitBtn {
+    background: white;
+    padding: 0.3rem 1rem;
+    /* Shortened padding */
+    border: none;
+    border-radius: 1rem;
+    /* Shortened border radius */
+    cursor: pointer;
+    font-size: 0.9rem;
+    /* Smaller font size */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 720px) {
+    .contactPageTitle {
+        font-size: 2rem;
+    }
+
+    .clientDesc,
+    .contactDesc {
+        font-size: 0.9rem;
+    }
+
+    .submitBtn {
+        padding: 0.25rem 0.75rem;
+        /* Shortened padding for smaller screens */
+        border-radius: 0.8rem;
+        /* Adjusted border radius */
+        font-size: 0.8rem;
+        /* Smaller font size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactPageTitle {
+        font-size: 1.75rem;
+    }
+
+    .clientDesc,
+    .contactDesc {
+        font-size: 0.8rem;
+    }
+
+    .submitBtn {
+        padding: 0.2rem 0.5rem;
+        /* Shortened padding for smaller screens */
+        border-radius: 0.6rem;
+        /* Adjusted border radius */
+        font-size: 0.7rem;
+        /* Smaller font size */
+    }
+}
