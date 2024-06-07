@@ -9,7 +9,7 @@ const Intro = () => {
                 <span className="hello">Hello,</span>
                 <span className="introText">Guilding Patients And <br />Empowering Care!!</span>
                 <p className="introPara">Predict your chance of having a brain tumor because<br /> prevention is better than cure! </p>
-                <Link ><button className="btn">Predict </button></Link>
+                <Link className='btn-outter' to="prediction" smooth={true}><button className="btn">Predict </button></Link>
             </div>
             <img src={bg} alt="Profile" className='bg' />
         </section>

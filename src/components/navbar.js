@@ -18,12 +18,12 @@ const Navbar = () => {
         <nav className="navbar">
             <div style={navbarStyle}>Brain Tumor Analysis</div>
             <div className="desktopMenu">
-                <Link to="home" smooth={true} className="desktopMenuListItem">Home</Link>
+                <Link to="intro" smooth={true} className="desktopMenuListItem">Home</Link>
                 <Link to="skills" smooth={true} className="desktopMenuListItem">Features</Link>
-                <Link to="Test" smooth={true} className="desktopMenuListItem">Predict</Link>
-                <Link to="analysis" smooth={true} className="desktopMenuListItem">Analysis</Link>
+                <Link to="prediction" smooth={true} className="desktopMenuListItem">Predict</Link>
+                <Link to="contactPage" smooth={true} className="desktopMenuListItem">Network</Link>
             </div>
-            <button className="desktopMenuBtn">Contact Us</button>
+            <Link to="contactPage" smooth={true} className="desktopMenuBtn">Contact Us</Link>
             <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className="bar"></div>
                 <div className="bar"></div>

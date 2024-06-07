@@ -3,7 +3,7 @@ import '../components/Footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-            Cpyright &#169 Vikas Singh .All rights received.
+            Cpyright &#169 Sakshi Johar, Vikas Singh .All rights received.
         </footer>
     )
 }
